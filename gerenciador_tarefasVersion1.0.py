@@ -10,7 +10,7 @@ def listar_tarefas():
         print("Nenhuma tarefa cadastrada")
     else:
         print("\nlista de tarefas: ")
-        for i, tarefa in enumerate(tarefa,1 ):
+        for i, tarefa in enumerate(tarefas,1):
             print(f"{i}. {tarefas}")
             
 def remover_tarefas(indice):
@@ -27,15 +27,15 @@ while True:
     print("3 - Remover Tarefa")
     print("4 - Sair")
     
-    opcao = input("Escolha uma opção")
+    opcao = input("Escolha uma opção: ")
     
     if opcao == "1":
         tarefa = input("Digite a nova tarefa: ")
         adicionar_tarefa(tarefa)
     elif opcao == "2":
-        listar_tarefas
+        listar_tarefas()
     elif opcao == "3":
-        listar_tarefas
+        listar_tarefas()
         indice = int(input("Digite o número da tarefa para remover: "))
         remover_tarefas(indice)
     elif opcao == "4":
