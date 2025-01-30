@@ -1,0 +1,15 @@
+Nosso gerenciador de tarefas precisa ter as seguintes funcionalidades:
+
+Adicionar uma nova tarefa
+Listar todas as tarefas
+Remover uma tarefa pelo índice
+Sair do programa
+
+Vamos utilizar uma estrutura de lista para armazenar as tarefas e um loop para interagir com o usuário.
+
+O código será dividido em funções para tornar o programa mais organizado.
+
+adicionar_tarefa(tarefa): adiciona uma tarefa à lista.
+listar_tarefas(): exibe todas as tarefas cadastradas.
+remover_tarefa(indice): remove uma tarefa com base no índice informado.
+Um loop while para manter o programa rodando até que o usuário decida sair.
